@@ -63,4 +63,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-toc
+
+plugins:
+  - jekyll-feed
  
