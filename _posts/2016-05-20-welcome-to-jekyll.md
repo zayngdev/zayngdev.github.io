@@ -1,6 +1,9 @@
 ---
 layout: post
+toc: true
 ---
+[toc]
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
@@ -18,6 +21,9 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+## Chapter 1 URP Shader Basic Term
+### Section 1
 
 ``` c
  // Shader 시작. 셰이더의 폴더와 이름을 여기서 결정합니다.
@@ -82,3 +88,26 @@ Shader "URPTraining/URPBasic"
     }
 }
 ```
+
+## Chapter 1 URP Shader Basic Term
+### Section 1
+### Section 1
+
+
+## Chapter 1 URP Shader Basic Term
+### Section 1
+### Section 1
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
+| Type   | Name        |     Header      | 로컬 공간 (모델 공간)의 정점 위치       |
+| ------ | ----------- | :-------------: | --------------------------------------- |
+| float4 | vertex      |  **POSITION**   | 버텍스의 노멀                           |
+| float3 | normal      |   **NORMAL**    | 버텍스의 노멀                           |
+| float4 | texcoord[n] | **TEXCOORD[n]** | 버텍스의 UV 좌표.                       |
+| float4 | tangent     |   **TANGENT**   | 메시에서 계산된 또는 import된 탄젠트 값 |
+| float4 | color       |    **COLOR**    | 버텍스의 컬러값.                        |

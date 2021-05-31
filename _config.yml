@@ -60,4 +60,7 @@ plugins:
  - jekyll-seo-tag
 
 markdown: kramdown
+
+plugins:
+  - jekyll-toc
  
