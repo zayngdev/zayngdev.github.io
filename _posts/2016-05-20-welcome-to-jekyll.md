@@ -109,5 +109,5 @@ Shader "URPTraining/URPBasic"
 | float4 | vertex      |  **POSITION**   | 버텍스의 노멀                           |
 | float3 | normal      |   **NORMAL**    | 버텍스의 노멀                           |
 | float4 | texcoord[n] | **TEXCOORD[n]** | 버텍스의 UV 좌표.                       |
-| float4 | tangent     |   **TANGENT**   | 메시에서 계산된 또는 import된 탄젠트 값 |
+| float4 | tangent     |   **TANGENT**   | 메시에서 계산된 또는 import된 탄젠트 값   |
 | float4 | color       |    **COLOR**    | 버텍스의 컬러값.                        |
